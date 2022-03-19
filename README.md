@@ -3,7 +3,9 @@
 - Samuel Aspirin 👨🏼‍🍳.
 
 ```
-Heyy 👋🏻, This is Samuel Aspirin. A software developer learning solidity in my free time 😂. I will be using this repo to document my solidity learning progress.
+Heyy 👋🏻, This is Samuel Aspirin. A software developer learning solidity in my free time 😂. 
+
+I will be using this repo to document my solidity learning progress.
 ```
 
 ## LICENSE
