@@ -4,24 +4,21 @@
 Technologies
 ============
 * Solidity
-* network - rinkeby
 * HardHat
 * Ethers
 
 
-```
+
 
 ### ERC-20 Smart Contract's address
 
-```
-0x84F90E5A716c95F3f81a41783228145e06ee0372
-```
+- ERC-20 - 0x84F90E5A716c95F3f81a41783228145e06ee0372
 
-### ERC-21 Smart Contract's address
 
-```
-0xd3C0bAe0FEe471c8BaBaf6c49FeeD5DD302dc795
-```
+### ERC-721 Smart Contract's address
+
+- ERC-721 - 0xd3C0bAe0FEe471c8BaBaf6c49FeeD5DD302dc795
+
 
 # IPFS Links
 
