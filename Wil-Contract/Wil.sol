@@ -14,7 +14,7 @@ contract Will {
 
   constructor () payable public {
       owner = msg.sender;
-      fortune = msg.owner;
+      fortune = msg.value;
       deceased = false;
    }
 
@@ -29,8 +29,8 @@ contract Will {
     require(deceased == true);
      _;
   }
-  address payable [] familyWallets
+  address payable [] familyWallets;
 
-  mapping (address => uint) inheritance;
+  mapping(address => uint) inheritance;
 
 }
