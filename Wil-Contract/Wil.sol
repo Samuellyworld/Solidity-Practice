@@ -13,8 +13,8 @@ contract Will {
   //payable is a keyword that follows the function to send and receive ether
 
   constructor () payable public {
-      owner = msg.sender;
-      fortune = msg.value;
+      owner = msg.sender; //msg.sender represent address that is  being called
+      fortune = msg.value; //msg.value tells us how much ether is being sent
       deceased = false;
    }
 
@@ -29,8 +29,11 @@ contract Will {
     require(deceased == true);
      _;
   }
+
+  //list of family wallets
   address payable [] familyWallets;
 
+  // map through inheritance
   mapping(address => uint) inheritance;
 
 }
