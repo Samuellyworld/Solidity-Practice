@@ -19,13 +19,13 @@ contract Will {
    }
 
  // create a modifier so that only who can call the contract is the owner
-   modifier onlyOwner {
+    modifier onlyOwner {
      require(msg.sender == owner);
       _;
    }
 
  //create modifer so that we only allocate funds if grandfather is deceased
-  modifier mustBeDeceased {
+   modifier mustBeDeceased {
     require(deceased == true);
      _;
   }
