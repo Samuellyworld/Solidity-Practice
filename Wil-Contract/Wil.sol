@@ -36,4 +36,11 @@ contract Will {
   // map through inheritance
   mapping(address => uint) inheritance;
 
+  //set inheritance for each address
+  function setInheritance ( address payable wallet, uint amount) public {
+    //to add wallet to the familywallets
+     familyWallets.push(wallet);
+     inheritance[wallet] = amount;
+  }
+
 }
